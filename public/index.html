@@ -1,0 +1,67 @@
+<html>
+  <head>
+   <title>Bread4Bed</title>
+  </head>
+  <body style="margin:0;">
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+      <script src="https://unpkg.com/styled-components/dist/styled-components.min.js"></script>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+      <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+      <!-- This is the mock header html -->
+      <div style="height: 10%; display: flex; flex-direction: row; padding: 10px;">
+        <div style="display:flex;flex-direction:row;align-items:center;width:70%;">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 388.82 388.82" style="height:40px;">
+            <path d="M368.75 175.92V80.1a23.84 23.84 0 0 0-23.81-23.82H43.88A23.84 23.84 0 0 0 20.07 80.1v95.83A23.67 23.67 0 0 0 0 199.3v59.32a7.5 7.5 0 0 0 7.5 7.5h8.04v37a7.5 7.5 0 0 0 7.5 7.5h13.53v14.44a7.5 7.5 0 0 0 15 0V310.6h285.68v14.44a7.5 7.5 0 1 0 15 0V310.6h13.54a7.5 7.5 0 0 0 7.5-7.5v-37h8.03a7.5 7.5 0 0 0 7.5-7.5v-59.32a23.67 23.67 0 0 0-20.07-23.37zM35.06 80.1a8.83 8.83 0 0 1 8.82-8.82h301.06a8.83 8.83 0 0 1 8.81 8.82v95.56h-26.33a733.89 733.89 0 0 0 16.09-17.92 7.5 7.5 0 0 0 0-9.84c-21.7-24.94-39.87-43.1-64.8-64.8a7.5 7.5 0 0 0-9.85 0c-24.93 21.7-43.1 39.86-64.8 64.8a7.5 7.5 0 0 0 0 9.84 732.24 732.24 0 0 0 16.1 17.92h-51.5a733.87 733.87 0 0 0 16.09-17.92 7.5 7.5 0 0 0 0-9.84c-21.7-24.94-39.87-43.1-64.8-64.8a7.5 7.5 0 0 0-9.85 0c-24.93 21.7-43.1 39.86-64.8 64.8a7.5 7.5 0 0 0 0 9.84 735.95 735.95 0 0 0 16.1 17.92H35.06V80.1zm205.8 95.56a642.29 642.29 0 0 1-21.16-22.84 585.55 585.55 0 0 1 54.09-54.08 585.57 585.57 0 0 1 54.08 54.08 641.35 641.35 0 0 1-21.15 22.84h-65.87zm-158.77 0a643.15 643.15 0 0 1-21.15-22.84 585.69 585.69 0 0 1 54.09-54.08 585.69 585.69 0 0 1 54.08 54.08 641.28 641.28 0 0 1-21.15 22.84H82.1zm276.2 119.96H30.54v-29.5h327.75v29.5zm15.53-44.5H15v-51.82a8.65 8.65 0 0 1 8.64-8.64h341.54a8.65 8.65 0 0 1 8.64 8.64v51.82z"/>
+          </svg>
+          <h1 style="font-family:verdana, arial, sans-serif;margin-left:15px;color:#FE5A5A">Bread4Bed</h1>
+        </div>
+        <div style="display:flex;flex-direction:row;align-items:center;justify-content: space-evenly;width:30%;font-size:10pt;">
+          <div onclick="location.href='https://www.youtube.com/watch?v=7ohbr90cKDc';">become a host</div>
+          <div onclick="location.href='https://www.youtube.com/watch?v=7ohbr90cKDc';">help</div>
+          <div onclick="location.href='https://www.youtube.com/watch?v=7ohbr90cKDc';">sign up</div>
+          <div onclick="location.href='https://www.youtube.com/watch?v=7ohbr90cKDc';">login</div>
+        </div>
+      </div>
+      <!-- header html end -->
+      <div id="root" style=""></div>
+      <div style="display:flex;flex-direction:row;justify-content:space-between;padding:20px;">
+        <div style="display:flex;flex-direction:column;width:50%;margin-left:5%;">
+          <!-- This is the home info html -->
+          <div style="display:flex;flex-direction:row;width:100%;">
+            <div style="width:75%;display:flex;flex-direction:column;justify-content:center;">
+              <div style="font-size:12pt;font-weight:bold;color:#FE5A5A;margin-top:5%;">Domicile</div>
+              <div style="font-size:20pt;font-weight:bold;margin-top:2%;">Our house is a very, very, very fine house with two cats in the yard</div>
+              <div style="height:2%;font-size:10pt;font-weight: bold;color:grey;margin-top:2%;">Frisco</div>
+            </div>
+            <div style="width:25%;display:flex;flex-direction:column;justify-content:center;align-items:center;">
+              <img src="https://typeset-beta.imgix.net/2016/4/5/sandor-c266399a-e387-49b7-bf3e-de1bbc8bb618.jpg" style="height:80px;width:85px;border-radius:50%;"/>
+              <div style="font-size:10pt;color:grey">Sandor</div>
+            </div>
+          </div>
+          <div style="height:10%;width:35%;display:flex;flex-direction:row;justify-content:space-between;align-items:center;">
+            <div>3 guests</div>
+            <div>1 bed</div>
+            <div>1 bath</div>
+          </div>
+          <div>
+            Cred hell of normcore prism enamel pin gochujang yr hot chicken letterpress copper mug chia. Yr cornhole snackwave kombucha hoodie. Pitchfork ethical schlitz, crucifix migas air plant selvage man bun hell of.
+            <br /><br />
+            Tousled actually la croix forage chillwave hashtag adaptogen lomo trust fund +1 craft beer stumptown skateboard etsy vegan. Bitters photo booth food truck wolf microdosing VHS thundercats vinyl pug kogi succulents. Schlitz leggings keytar tbh, tumblr portland offal cloud bread woke four dollar toast migas asymmetrical. 
+            <br /><br />
+            Swag try-hard tumblr pinterest hammock. Gastropub normcore pok pok forage pork belly authentic affogato. Everyday carry VHS retro health goth cloud bread.
+          </div>
+          <!-- Home info html end -->
+          <div id="amenities" style="width:100%;margin-top:5%;"></div>
+          <div id="reviews" style="width:100%;margin-top:5%;"></div>
+        </div>
+        <div style="display:flex;width:45%;justify-content:center;">
+          <div id="booking" style="right:15%;bottom:10px;margin-top:5%;"></div>
+        </div>
+      </div>
+      <script src="http://ec2-3-81-120-250.compute-1.amazonaws.com/bundle.js"></script>
+      <script src="http://ec2-3-84-131-113.compute-1.amazonaws.com/bundle.js"></script>
+      <script src="http://ec2-3-91-230-2.compute-1.amazonaws.com/bundle.js"></script>
+      <script src="http://ec2-18-191-62-37.us-east-2.compute.amazonaws.com/bundle.js"></script>
+  </body>
+</html>
