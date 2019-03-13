@@ -1,0 +1,11 @@
+config:
+  target: 'http://localhost:5000'
+  http:
+    pool: 18  
+  phases:
+    - duration: 25
+      arrivalRate: 1080 
+scenarios:
+  - flow:
+    - get:
+        url: "/?{{ $randomNumber(1,10000000) }}"

@@ -1,0 +1,23 @@
+config:
+  target: 'http://localhost:5000'
+  phases:
+    - duration: 1
+      arrivalRate: 1
+scenarios:
+  - name: "Add new home"
+    flow:
+      - post:
+          url: "/"
+          json:
+            home_id: '10000008'
+            name: "Keyboard"
+            appeal: '7'
+            category: "Facilities"
+            common: '1'
+            description: "Et ipsa id et m"
+            img_url: "https://s3.amazonaws.com/amenities4datalodge/amenities2/72.jpeg"
+            amen_id: '2'
+            included: '1'        
+
+
+
