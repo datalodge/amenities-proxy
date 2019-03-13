@@ -6,7 +6,7 @@ const cors = require('cors')
 const bodyParser = require('body-parser');
 
 const app = express();
-const port = 5000;
+const port = 3007;
 
 app.use(cors())
 app.use(compression())
